@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tuyennguyen.test_aar",
+    "module": "flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 11708801,
+          "sha512": "b7338f1432add939aa834268de60cc07eea8d0c7c7a16980e95941da430783f04c952a474a5944d6176da405d49823a7995799cf84ef5fe6bde1404832517098",
+          "sha256": "6604cfed8c442ea43e0a5f70ce82e33edc697e72e3ae322031e822156d416a0e",
+          "sha1": "1614d00e52b115982f530bc19d909dc54f96fff6",
+          "md5": "46d979943e5c0826a9c08ab0c66289af"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-3ad69d7be3a7231aab5525db322fc699f098315f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 11708801,
+          "sha512": "b7338f1432add939aa834268de60cc07eea8d0c7c7a16980e95941da430783f04c952a474a5944d6176da405d49823a7995799cf84ef5fe6bde1404832517098",
+          "sha256": "6604cfed8c442ea43e0a5f70ce82e33edc697e72e3ae322031e822156d416a0e",
+          "sha1": "1614d00e52b115982f530bc19d909dc54f96fff6",
+          "md5": "46d979943e5c0826a9c08ab0c66289af"
+        }
+      ]
+    }
+  ]
+}
